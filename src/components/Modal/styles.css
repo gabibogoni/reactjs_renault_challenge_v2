@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.container {
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, .212);
+  background-color: #fff;
+}
+
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fce393;
+}
+
+.form-image img {
+  width: 100%;
+}
+
+.form{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-header h1::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #fccc34;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #fccc34;
+}
+
+.input-box label {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.register-button button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #fccc34;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button button:hover {
+  background-color: #fcd24b;
+}
+
+.register-button button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* @media screen and (max-width: 1330px) {
+  .form-image {
+    display: none;
+  }
+}
+
+.container {
+  width: 50%;
+}
+
+.form {
+  width: 100%;
+}
+
+@media screen and (max-width: 1064px) {
+  .container {
+      width: 90%;
+      height: auto;
+  }
+
+  .input-group {
+      flex-direction: column;
+      z-index: 5;
+      padding-right: 5rem;
+      max-height: 10rem;
+      overflow-y: scroll;
+      flex-wrap: nowrap;
+  }
+} */
