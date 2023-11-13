@@ -1,11 +1,16 @@
-import { Form } from './components/Form';
-import { Modal } from './components/Modal';
+import { Menu } from './components/Menu';
+
+import { Slider } from './components/Slider';
+import { VehicleManagement } from './components/VehicleManagement';
+import GlobalStyle from './styles/globlaStyles';
 
 export const App = () => {
   return (
     <>
-      {/* <Form /> */}
-      <Modal />
+      <GlobalStyle />
+      <Menu />
+      <Slider />
+      <VehicleManagement />
     </>
   );
 };
