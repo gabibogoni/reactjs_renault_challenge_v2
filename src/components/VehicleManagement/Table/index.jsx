@@ -9,44 +9,44 @@ export const Table = () => {
       <S.Table>
         <thead>
           <tr>
-            <th>S.No</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Marks%</th>
-            <th>Status</th>
+            <th>#</th>
+            <th>Carro</th>
+            <th>Cor</th>
+            <th>Valor</th>
+            <th>Imagem</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-label="S.No">1</td>
-            <td data-label="Name">Dinesh</td>
-            <td data-label="Age">34</td>
-            <td data-label="Marks%">50%</td>
-            <td data-label="Staus">Passed</td>
+            <td data-label="#">1</td>
+            <td data-label="Car">Megane</td>
+            <td data-label="Color">Cinza</td>
+            <td data-label="Price">279.000,00</td>
+            <td data-label="Image">image.png</td>
           </tr>
 
           <tr>
-            <td data-label="S.No">2</td>
-            <td data-label="Name">Kamal</td>
-            <td data-label="Age">23</td>
-            <td data-label="Marks%">70%</td>
-            <td data-label="Staus">Passed</td>
+            <td data-label="#">2</td>
+            <td data-label="Car">Kwid</td>
+            <td data-label="Color">Branco</td>
+            <td data-label="Price">69.000,00</td>
+            <td data-label="Image">imge.png</td>
           </tr>
 
           <tr>
-            <td data-label="S.No">3</td>
-            <td data-label="Name">Neha</td>
-            <td data-label="Age">20</td>
-            <td data-label="Marks%">90%</td>
-            <td data-label="Staus">Passed</td>
+            <td data-label="#">3</td>
+            <td data-label="Car">Kardian</td>
+            <td data-label="Color">Preto</td>
+            <td data-label="Price">129.000,00</td>
+            <td data-label="Image">imge.png</td>
           </tr>
 
           <tr>
-            <td data-label="S.No">4</td>
-            <td data-label="Name">Priya</td>
-            <td data-label="Age">30</td>
-            <td data-label="Marks%">30%</td>
-            <td data-label="Staus">Failed</td>
+            <td data-label="#">4</td>
+            <td data-label="Car">Captur</td>
+            <td data-label="Color">Vermelho</td>
+            <td data-label="Price">119.000,00</td>
+            <td data-label="Image">imge.png</td>
           </tr>
         </tbody>
       </S.Table>

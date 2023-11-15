@@ -1,5 +1,4 @@
 import { Menu } from './components/Menu';
-
 import { Slider } from './components/Slider';
 import { VehicleManagement } from './components/VehicleManagement';
 import GlobalStyle from './styles/globlaStyles';

@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.slide-item{
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper{
+  margin-top: 56px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-button-prev{
+  color: white !important;
+  opacity: 0.3 !important;
+}
+
+.swiper-button-next{
+  color: white !important;
+  opacity: 0.3 !important;
+}
+
+
+

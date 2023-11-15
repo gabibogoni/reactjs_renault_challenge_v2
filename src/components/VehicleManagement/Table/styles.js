@@ -8,23 +8,25 @@ export const MainContainer = styled.div`
 export const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
 
   td {
     padding: 12px 15px;
-    //border: 1px solid #ddd;
     text-align: center;
     font-size: 15px;
   }
 
   th {
     padding: 12px 15px;
-    //border: 1px solid #ddd;
     text-align: center;
     font-size: 15px;
     background-color: black;
     color: #fff;
     opacity: 0.86;
   }
+
   tbody {
     tr {
       font-size: 15px;
