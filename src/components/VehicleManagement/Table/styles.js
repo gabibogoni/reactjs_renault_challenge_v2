@@ -22,7 +22,7 @@ export const Table = styled.table`
     padding: 12px 15px;
     text-align: center;
     font-size: 15px;
-    background-color: black;
+    background-color: #bbbbbb;
     color: #fff;
     opacity: 0.86;
   }
@@ -37,6 +37,11 @@ export const Table = styled.table`
 
     tr:nth-child(even) {
       background-color: #f5f5f5;
+    }
+
+    button {
+      background: #f0f0f0;
+      color: gray;
     }
   }
 

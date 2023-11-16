@@ -1,55 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
-*{
+/* *{
   margin: 0;
   border: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
+}*/
 
 .container-body {
-  width: 100%;
+  /* width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: white; */
+  /* font-family: "Poppins", sans-serif; */
+
 }
 
-.container {
-  width: 70%;
-  height: 90vh;
+.container-form {
+  /* width: 70%;
+  height: 90vh; */
   display: flex;
+  justify-content: left;
+max-width: 100%;
+margin:3rem;
 
+  background-image: url("https://1.bp.blogspot.com/-Mopbrxubk2c/XlnBpnsb6YI/AAAAAAAAbWs/XkyFd-J0VHs4eaeVnodRyE_ZqOITfnmjACLcBGAsYHQ/s1600/Novo-Renault-Duster-2021%2B%25288%2529.jpg") ;
+  background-size: cover;
+  /* background-position: 50%; */
+  /* background-size: 100%; */
   /* background-color: #fff; */
   /* border: 1px solid rgba(0, 0, 0, .212); */
-  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.10);
+  /* box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.10); */
+  /* background:green; */
+  opacity: 0.95;
 
 }
 
 
 
-.form-image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fce393;
-}
 
-.form-image img {
-  width: 100%;
-}
+
 
 .form{
-  width: 50%;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  padding: 3rem;
+/*
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.10); */
+  padding:3rem 7rem 7rem 3rem;
 }
 
 .form-header {
@@ -122,21 +126,21 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1330px) {
+/* @media screen and (max-width: 1330px) {
   .form-image {
     display: none;
   }
-}
+} */
 
-.container {
+/* .container {
   width: 50%;
-}
+} */
 
-.form {
+/* .form {
   width: 100%;
-}
+} */
 
-@media screen and (max-width: 1064px) {
+/* @media screen and (max-width: 1064px) {
   .container {
       width: 90%;
       height: auto;
@@ -150,4 +154,4 @@
       overflow-y: scroll;
       flex-wrap: nowrap;
   }
-}
+} */

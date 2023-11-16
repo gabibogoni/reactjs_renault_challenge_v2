@@ -1,4 +1,5 @@
-import './styles.css';
+import './styles_old.css';
+// import * as S from './styles';
 import Logo from '../../assets/images/logo2.png';
 
 export const Menu = () => {
@@ -6,7 +7,7 @@ export const Menu = () => {
     <header className="header">
       <div className="content">
         <a href="#" className="logo">
-          <img src={Logo} title="Loop Nerd" width="55px" height="45px" />
+          <img src={Logo} title="Logo renault" width="55px" height="45px" />
         </a>
 
         <input className="mobile-btn" type="checkbox" id="mobile-btn" />

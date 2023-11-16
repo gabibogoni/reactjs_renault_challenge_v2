@@ -11,7 +11,6 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    //font: 14px Roboto, sans-serif;
     font: 14px "Poppins", sans-serif;
   }
 
@@ -21,6 +20,5 @@ export default createGlobalStyle`
 
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
-
 
 `;

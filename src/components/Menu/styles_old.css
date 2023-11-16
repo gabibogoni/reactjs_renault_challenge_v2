@@ -1,9 +1,4 @@
-
-
-/* começa aqui */
-
 .header {
-
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
@@ -11,10 +6,11 @@
   left:0;
   width: 100%;
   z-index:1;
-  float:left;
+  display: flex;
+  justify-content: flex-start;
+
 }
 .header ul {
-
   margin: 0;
   padding: 0;
   list-style: none;
@@ -31,13 +27,16 @@
 }
 .header li a:hover,
 .header .btn-mobile:hover {
-  background-color: #02a1ee;
-  color:#fff;
+  /* background-color: #0f0f0f; */
+  opacity: 0.86;
+  color: rgba(0,0,0,.8);
 }
 .header .logo {
+  display:flex;
+  justify-content: flex-start;
+  align-self: center;
 
-  display: block;
-  float: left;
+
 }
 .header .nav {
   clear: both;
@@ -46,16 +45,17 @@
 }
 /* menu icon */
 .header .mobile-icon {
+  display: flex;
+  justify-content: flex-end;
   cursor: pointer;
-  display: inline-block;
-  float: right;
+
   padding: 28px 20px;
   position: relative;
   user-select: none;
 }
 .header .mobile-icon .hamburguer {
   background: #333;
-  display: block;
+  display: flex;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
@@ -70,12 +70,16 @@
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
+
+
 }
 .header .mobile-icon .hamburguer:before {
   top: 5px;
 }
 .header .mobile-icon .hamburguer:after {
   top: -5px;
+
+
 }
 /* menu btn */
 .header .mobile-btn {
@@ -99,7 +103,8 @@
 }
 .container_header {
   width:100%;
-  float:left;
+  display: flex;
+  justify-content: flex-start;
   margin-top:100px;
 }
 .content {
@@ -107,16 +112,14 @@
   flex-direction: row;
   align-items: self-end;
   justify-content: left;
-  margin:0 4%;
-  /* float:left;
   width:92%;
-  margin:0 4%; */
+  margin:0 4%;
 
 }
 /* 48em = 768px */
 @media (min-width: 48em) {
 
-  .header li { float:left; }
+  .header li { display: flex; justify-content: flex-start; }
 
   .header li a {
 
@@ -127,7 +130,7 @@
   }
   .header .nav {
     clear: none;
-    float: right;
+    display: flex; justify-content: flex-end;
     max-height: none;
   }
 
@@ -137,5 +140,14 @@
     transition:.3s;
     border-bottom:0;
 
+  }
+
+}
+
+/* 48em = 768px */
+@media (max-width: 48em) {
+
+  .header .logo {
+    display: none;
   }
 }
